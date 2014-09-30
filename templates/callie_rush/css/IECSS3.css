@@ -1,0 +1,10 @@
+.s5_va_active, .s5_va_inactive, #s5_accordion_menu h3, #cboxLoadedContent h3, #s5_top_bar, .s5_h3_tag_wrap, .module_round_box_outer .module_round_box_with_title, #s5_component_wrap_inner, .s5_scrolltotop, .button, a.readon, div.catItemReadMore, .userItemReadMore, div.catItemCommentsLink, .userItemCommentsLink, a.readmore-link, a.comments-link, div.itemCommentsForm form input#submitCommentButton, .inputbox, .registration input, .login input, .inputbox:hover, .registration input:hover, .login input:hover {
+behavior: url(templates/callie_rush/css/PIE.htc);
+position:relative;
+}
+
+#modlgn_remember {
+behavior:none;
+background:none;
+border:none;
+}

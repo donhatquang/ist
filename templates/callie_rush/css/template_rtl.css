@@ -1,0 +1,162 @@
+#s5_navv li, #s5_search_wrap #mod_search_searchword, #s5_top_row1_wrap, #s5_top_row2_wrap, #s5_top_row3_wrap, #s5_center_column_wrap, #s5_left_column_wrap, #s5_right_column_wrap, #s5_bottom_row1_wrap, #s5_bottom_row2_wrap, #s5_bottom_row3_wrap, .s5_vm_name, .s5_vm_image, .s5_vm_price, .s5_vm_add_to_cart, #s5_breadcrumb_font_wrap {
+direction:rtl;
+text-align:right;
+}
+
+#s5_logo {float:right;
+background-position:top right;
+}
+
+#s5_top_bar {
+float:left;
+margin-left:9px;
+margin-right:0px;
+}
+
+.buttonheading {
+float:left;
+}
+
+#s5_login, #s5_register {
+margin-right:8px;
+margin-left:0px;
+}
+
+#s5_menu_wrap, a.readon, .contentheading, .s5_mod_h3 {
+float:right;
+}
+
+.button, a.readon, div.catItemReadMore, .userItemReadMore, div.catItemCommentsLink, .userItemCommentsLink, a.readmore-link, a.comments-link, div.itemCommentsForm form input#submitCommentButton {
+float:right;
+margin-right:0px;
+}
+
+#s5box_login ul li, #s5box_register ul li {
+padding-right:22px;
+padding-left:0px;
+background-position:right center;
+}
+
+.module_round_box_outer .module_round_box_with_title {
+-moz-border-radius:8px 0px 8px 8px;
+-webkit-border-radius:8px 0px 8px 8px;
+border-radius:8px 0px 8px 8px;
+}
+
+#s5_search_wrap {
+float:left;
+margin-right:0px;
+margin-left:-31px;
+}
+
+#s5_menu_wrap {
+display:block;
+width:606px;
+}
+
+#s5_search_wrap .search input {
+padding-right:16px;
+}
+
+#s5_loginreg {float: left;}
+
+#accordion_inner, #s5_pos_top_row1_1 {
+direction:ltr;
+}
+
+.jcomments-links {
+	text-align:right;
+	direction:ltr;
+	}
+
+.article_column .contentpaneopen {
+padding-right:0px;
+padding-left:15px;
+}
+
+
+#loading_img {
+visibility:hidden;
+}
+
+.latestnews li, .mostread li, .sections li, .s5_module_box ul.menu a, .module_round_box_outer ul.menu a  {
+background-position:center right;
+}
+
+/* Accordion Menu
+----------------------------------------------------------- */
+
+#s5_accordion_menu h3.s5_am_parent span.s5_accordion_menu_left {
+padding-right:32px;
+}
+
+div.s5_accordion_menu_element li a {
+background:url("../images/arrow.png") no-repeat scroll right center transparent;
+padding-right:20px;
+padding-left:0px;
+}
+
+
+/* Flex Menu
+----------------------------------------------------------- */
+
+#s5_nav, #subMenusContainer {
+direction:rtl;
+}
+
+#subMenusContainer a, #s5_nav li li a {
+	text-align:right;
+	}
+	
+.subParentBtn .S5_submenu_item a {
+background:none;
+}
+
+
+/* End Flex Menu
+----------------------------------------------------------- */
+
+
+#login li, #form-login li {
+background-position:center right;}
+
+
+#s5box_login, #s5box_register {
+    direction:rtl;}
+
+	
+	
+	
+	
+	
+
+
+
+/* Template Defaults
+----------------------------------------------------------- */
+#s5_breadcrumb_wrap {text-align: right;}
+	
+
+
+
+
+/* Jcomments
+----------------------------------------------------------- */
+#jc {padding-right:11px; }
+#jc h4 { text-align:right;}
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {
+text-align:right;}
+#comments-form .btn, #comments-report-form .btn {
+float:right;margin-right:22px;}
+
+#jc .rbox div, #comments {
+text-align:right;
+}
+
+
+/* Tienda
+----------------------------------------------------------- */
+
+div#tienda_products div.product_thumb {
+float:none;
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="1.6.0" method="upgrade" client="site">
+	<name>S5 Frontpage Display 2</name>
+	<author>Shape5.com</author>
+	<creationDate>February 2009</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>www.shape5.com</authorUrl>
+	<version>2.0.0</version>
+	<description>This module will display images and content in a display box with a nice hover over effect.</description>
+	<files>
+		<filename module="mod_s5_frontpage_display2">mod_s5_frontpage_display2.php</filename>
+		<filename>s5_frontpage_display_2/s5_fd.js</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+    <config>
+		<fields name="params">
+		<fieldset name="basic">
+        <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+			<field name="modulewidth" type="text" default="666" label="Width of Module" description="" />
+			<field name="topheight" type="text" default="255" label="Height of Top Display Area" description="" />
+			<field name="bottomheight" type="text" default="183" label="Height of Bottom Tab Area" description="" />
+			<field name="tm" type="text" default="0" label="Top Margin In Pixels" />
+			<field name="rm" type="text" default="0" label="Right Margin In Pixels" />
+			<field name="bm" type="text" default="6" label="Bottom Margin In Pixels" />
+			<field name="lm" type="text" default="0" label="Left Margin In Pixels" />
+			<field name="background" type="text" default="" label="Background color. Leave Blank If None. Example: FFFFFF" />
+            <field name="boxes" type="list" default="3" label="Number of Boxes">
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+				   <option value="4">4</option>
+				   <option value="5">5</option>
+				   <option value="6">6</option>
+				   <option value="7">7</option>
+				   <option value="8">8</option>
+            </field>
+			<field name="highlight" type="list" default="1" label="Which Box Would You Like Highlighted On Page Load?">
+                   <option value="1">1</option>
+				   <option value="2">2</option>
+                   <option value="3">3</option>
+				   <option value="4">4</option>
+				   <option value="5">5</option>
+				   <option value="6">6</option>
+				   <option value="7">7</option>
+				   <option value="8">8</option>
+            </field>
+			<field name="rotate" type="list" default="yes" label="Would You Like The Boxes To Automatically Cycle?">
+                   <option value="yes">yes</option>
+                   <option value="no">no</option>
+            </field>
+			<field name="speed" type="text" default="5" label="If Yes, What Speed In Seconds?" />
+			<field type="spacer" name="box1" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 1 Section&lt;/span&gt;" />
+			<field name="top1_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 1. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top1_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 1 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top1_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top1_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 1" />
+			<field name="box1width" type="text" default="222" label="Width of Box 1" description="" />
+			<field name="box1_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 1. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box1_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 1 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box1_hyperlink" type="text" default="" label="URL Link If Box 1 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box1_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box1_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 1" />
+			
+			<field type="spacer" name="box2" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 2 Section&lt;/span&gt;" />
+			<field name="top2_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 2. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top2_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 2 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top2_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top2_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 2" />
+			<field name="box2width" type="text" default="222" label="Width of Box 2" description="" />
+			<field name="box2_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 2. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box2_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 2 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box2_hyperlink" type="text" default="" label="URL Link If Box 2 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box2_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box2_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 2" />
+			
+			<field type="spacer" name="box3" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 3 Section&lt;/span&gt;" />
+			<field name="top3_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 3. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top3_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 3 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top3_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top3_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 3" />
+			<field name="box3width" type="text" default="222" label="Width of Box 3" description="" />
+			<field name="box3_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 3. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box3_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 3 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box3_hyperlink" type="text" default="" label="URL Link If Box 3 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box3_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box3_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 3" />
+			
+			<field type="spacer" name="box4" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 4 Section&lt;/span&gt;" />
+			<field name="top4_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 4. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top4_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 4 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top4_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top4_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 4" />
+			<field name="box4width" type="text" default="222" label="Width of Box 4" description="" />
+			<field name="box4_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 4. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box4_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 4 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box4_hyperlink" type="text" default="" label="URL Link If Box 4 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box4_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box4_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 4" />
+			
+			<field type="spacer" name="box5" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 5 Section&lt;/span&gt;" />
+			<field name="top5_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 5. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top5_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 5 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top5_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top5_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 5" />
+			<field name="box5width" type="text" default="222" label="Width of Box 5" description="" />
+			<field name="box5_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 5. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box5_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 5 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box5_hyperlink" type="text" default="" label="URL Link If Box 5 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box5_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box5_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 5" />
+			
+			<field type="spacer" name="box6" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 6 Section&lt;/span&gt;" />
+			<field name="top6_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 6. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top6_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 6 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top6_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top6_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 6" />
+			<field name="box6width" type="text" default="222" label="Width of Box 6" description="" />
+			<field name="box6_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 6. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box6_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 6 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box6_hyperlink" type="text" default="" label="URL Link If Box 6 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box6_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box6_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 6" />
+
+			<field type="spacer" name="box7" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 7 Section&lt;/span&gt;" />
+			<field name="top7_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 7. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top7_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 7 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top7_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top7_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 7" />
+			<field name="box7width" type="text" default="222" label="Width of Box 7" description="" />
+			<field name="box7_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 7. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box7_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 7 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box7_hyperlink" type="text" default="" label="URL Link If Box 7 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box7_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box7_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 7" />
+			
+			<field type="spacer" name="box8" default="&lt;span style=&quot;width:474px;display:block;font-weight:bold&quot;&gt;Box 8 Section&lt;/span&gt;" />
+			<field name="top8_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In The Top Section When Hovering Over Box 8. Example: http://www.shape5.com/picture.jpg" />
+			<field name="top8_hyperlink" type="text" default="" label="URL Link If Top Picture Is Clicked While Box 8 Is Active. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="top8_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="top8_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In The Top Section When Hovering Over Box 8" />
+			<field name="box8width" type="text" default="222" label="Width of Box 8" description="" />
+			<field name="box8_pic" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 8. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box8_pic_hover" type="text" default="" label="Enter The URL Of The Image To Be Displayed In Box 8 On Hover. Example: http://www.shape5.com/picture.jpg" />
+			<field name="box8_hyperlink" type="text" default="" label="URL Link If Box 8 Is Clicked. Leave Blank If None. Example: http://www.shape5.com" />
+			<field name="box8_target" type="list" default="same" label="Link Will Open In New Window or Same Window?" >
+				<option value="new">new</option>
+				<option value="same">same</option>
+			</field>
+			<field name="box8_content" type="textarea" filter="raw" cols="40" rows="5" default="" label="OPTIONAL - HTML To Display In Box 8" />
+
+	</fieldset>
+		</fields>
+	</config>
+</extension>

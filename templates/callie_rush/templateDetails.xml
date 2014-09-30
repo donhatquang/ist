@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="1.6"
+	type="template"
+	client="site">
+	<name>callie_rush</name>
+	<creationDate>July 2011</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - Callie Rush</h1>
+
+	<br/>
+	<img src="../templates/callie_rush/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials pertaining to this template and additional information check out:<br /> <a href="http://www.shape5.com/demo/callie_rush">Callie Rush Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com
+	<br /><br />
+	<div class="vertex-admin-logoback"><div class="vertex-admin-logo"></div></div>
+	<br /><br />
+	Powered by a comprehensive template blue print<br/><br/>
+	<a target="_blank" href="http://www.shape5.com/joomla/framework/vertex_framework.html">Read more about Vertex here</a> 
+	
+	
+	
+	]]></description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>vertex</folder>	
+		<filename>error.php</filename>
+		<filename>component.php</filename>
+		<filename>template_preview.png</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_callie_rush.ini</language>
+	</languages>
+	<positions>
+		<position>middle_menu</position>
+		<position>bottom_menu</position>
+		<position>logo</position>
+		<position>login</position>
+		<position>register</position>
+		<position>top_row1_1</position>
+		<position>top_row1_2</position>
+		<position>top_row1_3</position>
+		<position>top_row1_4</position>
+		<position>top_row1_5</position>
+		<position>top_row1_6</position>
+		<position>top_row2_1</position>
+		<position>top_row2_2</position>
+		<position>top_row2_3</position>
+		<position>top_row2_4</position>
+		<position>top_row2_5</position>
+		<position>top_row2_6</position>
+		<position>top_row3_1</position>
+		<position>top_row3_2</position>
+		<position>top_row3_3</position>
+		<position>top_row3_4</position>
+		<position>top_row3_5</position>
+		<position>top_row3_6</position>
+		<position>above_columns_1</position>
+		<position>above_columns_2</position>
+		<position>above_columns_3</position>
+		<position>above_columns_4</position>
+		<position>above_columns_5</position>
+		<position>above_columns_6</position>		
+		<position>left_top</position>
+		<position>left</position>
+		<position>left_inset</position>
+		<position>right_top</position>
+		<position>right</position>
+		<position>right_inset</position>
+		<position>middle_top_1</position>
+		<position>middle_top_2</position>
+		<position>middle_top_3</position>
+		<position>middle_top_4</position>
+		<position>middle_top_5</position>
+		<position>middle_top_6</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>
+		<position>above_body_3</position>
+		<position>above_body_4</position>
+		<position>above_body_5</position>
+		<position>above_body_6</position>
+		<position>left_bottom</position>
+		<position>right_bottom</position>
+		<position>middle_bottom_1</position>
+		<position>middle_bottom_2</position>
+		<position>middle_bottom_3</position>
+		<position>middle_bottom_4</position>
+		<position>middle_bottom_5</position>
+		<position>middle_bottom_6</position>
+		<position>below_body_1</position>
+		<position>below_body_2</position>
+		<position>below_body_3</position>
+		<position>below_body_4</position>
+		<position>below_body_5</position>
+		<position>below_body_6</position>
+		<position>below_columns_1</position>
+		<position>below_columns_2</position>
+		<position>below_columns_3</position>
+		<position>below_columns_4</position>
+		<position>below_columns_5</position>
+		<position>below_columns_6</position>			
+		<position>bottom_row1_1</position>
+		<position>bottom_row1_2</position>
+		<position>bottom_row1_3</position>
+		<position>bottom_row1_4</position>
+		<position>bottom_row1_5</position>
+		<position>bottom_row1_6</position>
+		<position>bottom_row2_1</position>
+		<position>bottom_row2_2</position>
+		<position>bottom_row2_3</position>
+		<position>bottom_row2_4</position>
+		<position>bottom_row2_5</position>
+		<position>bottom_row2_6</position>
+		<position>bottom_row3_1</position>
+		<position>bottom_row3_2</position>
+		<position>bottom_row3_3</position>
+		<position>bottom_row3_4</position>
+		<position>bottom_row3_5</position>
+		<position>bottom_row3_6</position>
+		<position>debug</position>	
+		<position>footer</position>	
+		<position>mobile_top_1</position>	
+		<position>mobile_top_2</position>	
+		<position>mobile_bottom_1</position>	
+		<position>mobile_bottom_2</position>	
+		<position>drop_down_1</position>
+		<position>drop_down_2</position>
+		<position>drop_down_3</position>
+		<position>drop_down_4</position>
+		<position>drop_down_5</position>
+		<position>drop_down_6</position>
+		<position>s5_menu1</position>
+		<position>s5_menu2</position>
+		<position>s5_menu3</position>
+		<position>s5_menu4</position>
+		<position>s5_menu5</position>
+		<position>s5_menu6</position>
+		<position>s5_menu7</position>
+		<position>s5_menu8</position>
+		<position>s5_menu9</position>
+		<position>s5_menu10</position>
+		<position>s5_menu11</position>
+		<position>s5_menu12</position>
+		<position>s5_menu13</position>
+		<position>s5_menu14</position>
+		<position>s5_menu15</position>
+		<position>s5_menu16</position>
+		<position>s5_menu17</position>
+		<position>s5_menu18</position>
+		<position>s5_menu19</position>
+		<position>s5_menu20</position>
+		<position>s5_menu21</position>
+		<position>s5_menu22</position>
+		<position>s5_menu23</position>
+		<position>s5_menu24</position>
+		<position>s5_menu25</position>
+		<position>s5_menu26</position>
+		<position>s5_menu27</position>
+		<position>s5_menu28</position>
+		<position>s5_menu29</position>
+		<position>s5_menu30</position>
+		<position>s5_menu31</position>
+		<position>s5_menu32</position>
+		<position>s5_menu33</position>
+		<position>s5_menu34</position>
+		<position>s5_menu35</position>
+		<position>s5_menu36</position>
+		<position>s5_menu37</position>
+		<position>s5_menu38</position>
+		<position>s5_menu39</position>
+		<position>s5_menu40</position>
+		<position>s5_va_1</position>
+		<position>s5_va_2</position>
+		<position>s5_va_3</position>
+		<position>s5_va_4</position>
+		<position>s5_va_5</position>
+		<position>s5_va_6</position>
+		<position>s5_va_7</position>
+		<position>s5_va_8</position>
+		<position>s5_va_9</position>
+		<position>s5_va_10</position>
+		<position>s5_box1</position>
+		<position>s5_box2</position>
+		<position>s5_box3</position>
+		<position>s5_box4</position>
+		<position>s5_box5</position>
+		<position>s5_box6</position>
+		<position>s5_tab7</position>
+		<position>s5_box8</position>
+		<position>s5_box9</position>
+		<position>s5_box10</position>
+	</positions>
+		<config>
+		
+		<fields name="params" addfieldpath="/templates/callie_rush/vertex/admin/elements">
+				<fieldset name="sscript" label=" ">
+		 <field name="settings" type="vertex" default="" description="" label=" " />
+		 </fieldset>
+		 
+			<fieldset name="s50" label="TPL_FIELD_TS_LABEL">
+			<field name="s51spacer_notice" label="&lt;span style=&quot;display:block;&quot;&gt;Make sure to hover your mouse over each title in this column for a full description of what each field does.&lt;/span&gt;" type="spacer" />
+			<field name="xml_s5_highlight" type="text" default="036C9E" label="TPL_FIELD_HIGHLIGHT_LABEL" description="TPL_FIELD_HIGHLIGHT_DESC" />
+			<field name="xml_s5_facebook" type="text" default="" label="TPL_FIELD_FACEBOOK_LABEL" description="TPL_FIELD_FACEBOOK_DESC" />
+			<field name="xml_s5_twitter" type="text" default="" label="TPL_FIELD_TWITTER_LABEL" description="TPL_FIELD_TWITTER_DESC" />
+			<field name="xml_s5_google" type="text" default="" label="TPL_FIELD_GOOGLE_LABEL" description="TPL_FIELD_GOOGLE_DESC" />
+			<field name="xml_s5_rss" type="text" default="" label="TPL_FIELD_RSS_LABEL" description="TPL_FIELD_RSS_DESC" />
+		
+		</fieldset>
+		
+		<fieldset name="s51" label="TPL_FIELD_LFA_LABEL">	
+		<field name="xml_s5_font_resizer" type="radio" default="yes" label="TPL_FIELD_FONTRESIZER_LABEL" description="TPL_FIELD_FONTRESIZER_DESC">
+					<option value="yes">TPL_FIELD_FONTRESIZER_1</option>
+					<option value="no">TPL_FIELD_FONTRESIZER_2</option>
+		</field>		
+		<field name="xml_s5_fonts" type="list" default="Cantarell" label="TPL_FIELD_SITEFONT_LABEL" description="TPL_FIELD_SITEFONT_DESC">
+			<option value="Arial">TPL_FIELD_SITEFONT_ARIAL</option>
+			<option value="Helvetica">TPL_FIELD_SITEFONT_HELVETICA</option>
+			<option value="Sans-Serif">TPL_FIELD_SITEFONT_SANSSERIF</option>
+			<option value="VT323">TPL_FIELD_SITEFONT_VT323</option>
+			<option value="Expletus Sans">TPL_FIELD_SITEFONT_EXPLETUSSANS</option>
+			<option value="Bevan">TPL_FIELD_SITEFONT_BEVAN</option>
+			<option value="Anton">TPL_FIELD_SITEFONT_ANTON</option>
+			<option value="Astloch">TPL_FIELD_SITEFONT_ASTLOCH</option>
+			<option value="PT Serif">TPL_FIELD_SITEFONT_PTSERIF</option>
+			<option value="Dancing Script">TPL_FIELD_SITEFONT_DANCINGSCRIPT</option>
+			<option value="Kreon">TPL_FIELD_SITEFONT_KREON</option>
+			<option value="Radley">TPL_FIELD_SITEFONT_RADLEY</option>			
+			<option value="Goudy Bookletter 1911">TPL_FIELD_SITEFONT_GB1911</option>
+			<option value="Buda">TPL_FIELD_SITEFONT_BUDA</option>
+			<option value="Geo">TPL_FIELD_SITEFONT_GEO</option>	
+			<option value="Lato">TPL_FIELD_SITEFONT_LATO</option>
+			<option value="Luckiest Guy">TPL_FIELD_SITEFONT_LUCKIESTGUY</option>
+			<option value="UnifrakturCook">TPL_FIELD_SITEFONT_UNIFRAKTURCOOK</option>
+			<option value="Raleway">TPL_FIELD_SITEFONT_RALEWAY</option>
+			<option value="UnifrakturMaguntia">TPL_FIELD_SITEFONT_UNMAGUNITA</option>
+			<option value="Homemade Apple">TPL_FIELD_SITEFONT_HOMEMADEAPPLE</option>
+			<option value="Walter Turncoat">TPL_FIELD_SITEFONT_WALTERTURNCOAT</option>	
+			<option value="Crafty Girls">TPL_FIELD_SITEFONT_CRAFTYGIRLS</option>			
+			<option value="Bentham">TPL_FIELD_SITEFONT_BENTHAM</option>	
+			<option value="Gruppo">TPL_FIELD_SITEFONT_GRUPPO</option>	
+			<option value="Schoolbell">TPL_FIELD_SITEFONT_SCHOOLBELL</option>
+			<option value="Permanent Marker">TPL_FIELD_SITEFONT_PERMANENTMARKER</option>
+			<option value="Ubuntu">TPL_FIELD_SITEFONT_UBUNTU</option>
+			<option value="Anonymous Pro">TPL_FIELD_SITEFONT_ANONYMOUSPRO</option>
+			<option value="Coming Soon">TPL_FIELD_SITEFONT_COMINGSOON</option>
+			<option value="Cherry Cream Soda">TPL_FIELD_SITEFONT_CHERRYCREAMSODA</option>
+			<option value="Covered By Your Grace">TPL_FIELD_SITEFONT_CBYG</option>
+			<option value="Allan">TPL_FIELD_SITEFONT_ALLAN</option>
+			<option value="Fontdiner Swanky">TPL_FIELD_SITEFONT_FONTDINERSWANKY</option>
+			<option value="Arvo">TPL_FIELD_SITEFONT_ARVO</option>
+			<option value="Copse">TPL_FIELD_SITEFONT_COPSE</option>			
+			<option value="Calligraffitti">TPL_FIELD_SITEFONT_CALLIGRAFFITTI</option>		
+			<option value="Merriweather">TPL_FIELD_SITEFONT_MERRIWEATHER</option>	
+			<option value="Mako">TPL_FIELD_SITEFONT_MAKO</option>
+			<option value="Slackey">TPL_FIELD_SITEFONT_SLACKEY</option>	
+			<option value="Rock Salt">TPL_FIELD_SITEFONT_ROCKSALT</option>
+			<option value="Kenia">TPL_FIELD_SITEFONT_KENIA</option>
+			<option value="Orbitron">TPL_FIELD_SITEFONT_ORIBTRON</option>
+			<option value="Tinos">TPL_FIELD_SITEFONT_TINOS</option>
+			<option value="Arimo">TPL_FIELD_SITEFONT_ARIMO</option>
+			<option value="Mountains of Christmas">TPL_FIELD_SITEFONT_MOUNTAINSOFC</option>
+			<option value="Puritan">TPL_FIELD_SITEFONT_PURITAN</option>
+			<option value="Corben">TPL_FIELD_SITEFONT_CORBEN</option>
+			<option value="Just Another Hand">TPL_FIELD_SITEFONT_JUSTANOTHERHAND</option>
+			<option value="Cousine">TPL_FIELD_SITEFONT_COUSINE</option>
+			<option value="Chewy">TPL_FIELD_SITEFONT_CHEWY</option>		
+			<option value="Syncopate">TPL_FIELD_SITEFONT_SYNCOPATE</option>		
+			<option value="Sunshiney">TPL_FIELD_SITEFONT_SUNSHINEY</option>		
+			<option value="Allerta">TPL_FIELD_SITEFONT_ALLERTA</option>
+			<option value="Questrial">Questrial</option>
+			<option value="Josefin Slab">TPL_FIELD_SITEFONT_JOSEFINSLAB</option>
+			<option value="PT Sans">TPL_FIELD_SITEFONT_PTSANS</option>		
+			<option value="Josefin Sans">TPL_FIELD_SITEFONT_JOSEFINSANS</option>
+			<option value="Philosopher">TPL_FIELD_SITEFONT_PHILOSOPHER</option>
+			<option value="Irish Growler">TPL_FIELD_SITEFONT_IRISHGROWLER</option>
+			<option value="Cuprum">TPL_FIELD_SITEFONT_CUPRUM</option>		
+			<option value="Vibur">TPL_FIELD_SITEFONT_VIBUR</option>			
+			<option value="Neucha">TPL_FIELD_SITEFONT_NEUCHA</option>
+			<option value="Lekton">TPL_FIELD_SITEFONT_LEKTON</option>
+			<option value="Sniglet">TPL_FIELD_SITEFONT_SNIGLET</option>	
+			<option value="Coda">TPL_FIELD_SITEFONT_CODA</option>		
+			<option value="Kristi">TPL_FIELD_SITEFONT_KRISTI</option>
+			<option value="Cabin">TPL_FIELD_SITEFONT_CABIN</option>
+			<option value="Unkempt">TPL_FIELD_SITEFONT_UNKEMPT</option>
+			<option value="Just Me Again Down Here">TPL_FIELD_SITEFONT_JMADH</option>	
+			<option value="Allerta Stencil">TPL_FIELD_SITEFONT_ALLERTASTENCIL</option>			
+			<option value="Crushed">TPL_FIELD_SITEFONT_CRUSHED</option>
+			<option value="Kranky">TPL_FIELD_SITEFONT_KRANKY</option>
+			<option value="Meddon">TPL_FIELD_SITEFONT_MEDDON</option>					
+			<option value="Cantarell">TPL_FIELD_SITEFONT_CANTARELL</option>
+			<option value="Cardo">TPL_FIELD_SITEFONT_CARDO</option>	
+			<option value="Crimson">TPL_FIELD_SITEFONT_CRIMSON</option>
+			<option value="Droid Sans">TPL_FIELD_SITEFONT_DRIODSANS</option>
+			<option value="Droid Sans Mono">TPL_FIELD_SITEFONT_DRIODSANSMONO</option>
+			<option value="Droid Serif">TPL_FIELD_SITEFONT_DRIODSERIF</option>
+			<option value="IM Fell">TPL_FIELD_SITEFONT_IMFELL</option>
+			<option value="Inconsolata">TPL_FIELD_SITEFONT_INCONSOLATA</option>
+			<option value="Josefin Sans Std Light">TPL_FIELD_SITEFONT_JOSEFINSANSSTDLIGHT</option>
+			<option value="Lobster">TPL_FIELD_SITEFONT_LOBSTER</option>
+			<option value="Molengo">TPL_FIELD_SITEFONT_MOLENGO</option>
+			<option value="Neuton">TPL_FIELD_SITEFONT_NEUTON</option>
+			<option value="Nobile">TPL_FIELD_SITEFONT_NOBILE</option>
+			<option value="OFL Sorts Mill Goudy TT">TPL_FIELD_SITEFONT_OFLSORTSMILLGOUDYTT</option>
+			<option value="Old Standard TT">TPL_FIELD_SITEFONT_OLDSTANDARDTT</option>
+			<option value="Oswald">TPL_FIELD_SITEFONT_OSWALD</option>
+			<option value="Reenie Beanie">TPL_FIELD_SITEFONT_REENIEBEANIE</option>
+			<option value="Tangerine">TPL_FIELD_SITEFONT_TANGERINE</option>
+			<option value="Vollkorn">TPL_FIELD_SITEFONT_VOLLKORN</option>
+			<option value="Yanone Kaffeesatz">TPL_FIELD_SITEFONT_YANONEKAFFEESATZ</option>
+		</field>
+		<field name="xml_s5_fixed_fluid" type="list" default="fixed" label="TPL_FIELD_FIXEDFLUID_LABEL" description="TPL_FIELD_FIXEDFLUID_DESC">
+			<option value="px">TPL_FIELD_FIXEDFLUID_O1</option>
+			<option value="%">TPL_FIELD_FIXEDFLUID_O2</option>
+		</field>	
+		<field name="xml_s5_body_width" type="text" default="955" label="TPL_FIELD_BODYWIDTH_LABEL" description="TPL_FIELD_BODYWIDTH_DESC" />
+		<field name="xml_s5_left_width" type="text" default="240" label="TPL_FIELD_LEFTWIDTH_LABEL" description="TPL_FIELD_LEFTWIDTH_DESC" />
+		<field name="xml_s5_left_inset_width" type="text" default="200" label="TPL_FIELD_LEFTINSETWIDTH_LABEL" description="TPL_FIELD_LEFTINSETWIDTH_DESC" />
+		<field name="xml_s5_right_width" type="text" default="238" label="TPL_FIELD_RIGHTWIDTH_LABEL" description="TPL_FIELD_RIGHTWIDTH_DESC" />
+		<field name="xml_s5_right_inset_width" type="text" default="237" label="TPL_FIELD_RIGHTINSETWIDTH_LABEL" description="TPL_FIELD_RIGHTINSETWIDTH_DESC" />
+		</fieldset>	
+		
+		<fieldset name="s52" label="TPL_FIELD_MO_LABEL">	
+		<field name="xml_s5_show_menu" type="radio" default="show" label="TPL_FIELD_MAINMENU_SOH" description="">
+			<option value="show">TPL_SHOW_DESC</option>
+			<option value="hide">TPL_HIDE_DESC</option>
+		</field>
+		<field name="s5_menu_type" type="menu" default="mainmenu" label="TPL_FIELD_MAINMENU_LABEL" description="TPL_FIELD_MAINMENU_DESC" />			
+		<field name="s5_maxdepth" type="text" default="10" label="TPL_FIELD_MAINMENU_LEVELS" description="" />
+		<field name="s5_duration" type="text" default="1000" label="TPL_FIELD_MAINMENU_OD" description="" />
+		<field name="s5_hide_delay" type="text" default="500" label="TPL_FIELD_MAINMENU_HD" description="" />
+		<field name="s5_opacity" type="text" default="100" label="Opacity" description="" />
+		<field name="s5_orientation" type="list" default="horizontal" label="TPL_FIELD_MAINMENU_ORIEN" description="">
+			<option value="horizontal">TPL_FIELD_MAINMENU_ORIEN_H</option>
+			<option value="vertical">TPL_FIELD_MAINMENU_ORIEN_V</option>
+		</field>
+		<field name="s5_effect" type="list" default="2" label="TPL_FIELD_MAINMENU_EFFECT" description="">
+			<option value="0">TPL_FIELD_MAINMENU_EFFECT_S</option>
+			<option value="1">TPL_FIELD_MAINMENU_EFFECT_F</option>
+			<option value="2">TPL_FIELD_MAINMENU_EFFECT_SF</option>
+			<option value="3">TPL_FIELD_MAINMENU_EFFECT_SP</option>
+		</field>	
+		</fieldset>	
+		
+		
+		<fieldset name="s53" label="TPL_FIELD_RMS_LABEL">
+		<field name="s53spacer_notice" label="&lt;span style=&quot;display:block;&quot;&gt;Below you can adjust the width of the modules contained in any row of modules or set it to automatic. For example top_row1 contains 6 module positions, if you publish modules to only top_row1_1 and top_row1_2 the modules will each be set to 50% of the available space or you can choose to set them percentages manually like 60% and 40%. &lt;br&gt;&lt;br&gt; &lt;/span&gt;" type="spacer" />
+				<field name="xml_s5_top_row1_calculation" type="list" default="automatic" label="TPL_FIELD_TOPROW1MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_top_row1_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_TOPROW1MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_top_row2_calculation" type="list" default="automatic" label="TPL_FIELD_TOPROW2MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_top_row2_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_TOPROW2MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_top_row3_calculation" type="list" default="automatic" label="TPL_FIELD_TOPROW3MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_top_row3_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_TOPROW3MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_above_columns_calculation" type="list" default="automatic" label="TPL_FIELD_ABOVECOLUMNSWRAP_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_above_columns_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_ABOVECOLUMNSWRAPMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />	
+				<field name="xml_s5_middle_top_calculation" type="list" default="automatic" label="TPL_FIELD_MIDDLETOPMODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_middle_top_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_MIDDLETOPMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />						
+				<field name="xml_s5_above_body_calculation" type="list" default="automatic" label="TPL_FIELD_ABOVEBODYMODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_above_body_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_ABOVEBODYMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_middle_bottom_calculation" type="list" default="automatic" label="TPL_FIELD_MIDDLEBOTTOMMODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_middle_bottom_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_MIDDLEBOTTOMMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_below_body_calculation" type="list" default="automatic" label="TPL_FIELD_BELOWBODYMODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_below_body_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_BELOWBODYMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_below_columns_calculation" type="list" default="automatic" label="TPL_FIELD_BELOWCOLUMNS_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_below_columns_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_BELOWCOLUMNSWRAPMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />	
+				<field name="xml_s5_bottom_row1_calculation" type="list" default="automatic" label="TPL_FIELD_BOTTOMROW1MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_bottom_row1_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_BOTTOM1MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_bottom_row2_calculation" type="list" default="automatic" label="TPL_FIELD_BOTTOMROW2MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_bottom_row2_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_BOTTOM2MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_bottom_row3_calculation" type="list" default="automatic" label="TPL_FIELD_BOTTOMROW3MODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>
+				</field>	
+				<field name="xml_s5_bottom_row3_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_BOTTOM3MANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+				<field name="xml_s5_drop_down_calculation" type="list" default="automatic" label="TPL_FIELD_DROPDOWNMODULES_LABEL" description="TPL_FIELD_ROWMODCALC_DESC">
+					<option value="automatic">TPL_FIELD_AUTOMATICWIDTHS_01</option>
+					<option value="2">TPL_FIELD_ROWSIZE2_LABEL</option>
+					<option value="3">TPL_FIELD_ROWSIZE3_LABEL</option>
+					<option value="4">TPL_FIELD_ROWSIZE4_LABEL</option>
+					<option value="5">TPL_FIELD_ROWSIZE5_LABEL</option>
+					<option value="6">TPL_FIELD_ROWSIZE6_LABEL</option>   
+				</field>	
+				<field name="xml_s5_drop_down_manual_widths" type="textarea" cols="20" rows="1" default="15,25,20,10,13,17" label="TPL_FIELD_DROPDOWNMANUALWIDTHS_LABEL" description="TPL_FIELD_MODULEWIDTHS_DESC" />
+		</fieldset>	
+		
+		<fieldset name="s54" label="TPL_FIELD_MDS_LABEL">			
+
+				<field name="spacer_notice" label="&lt;span style=&quot;display:block;&quot;&gt;Below you may setup mobile device support for your website. Your menu will be pulled from the same menu set in the Menu Options area. The mobile version contains the unique module positions mobile_top_1, mobile_top_2, mobile_bottom_1, and mobile_bottom_2, you may publish any module to these positions and they will only show on the mobile version. &lt;br/&gt;&lt;br/&gt;Module positions: logo, search and breadcrumb are also present but are shared with the main PC version. Disabling the show frontpage article/component area in General Options will also disable the mobile version's frontpage area.&lt;/span&gt;" type="spacer" />
+				<field name="xml_s5_mobile_device_enable_disable" type="radio" default="disabled" label="TPL_FIELD_MOBILELAYOUT_LABEL" description="TPL_FIELD_MOBILELAYOUT_DESC">
+					<option value="enabled">TPL_FIELD_MOBILELAYOUT_01</option>
+					<option value="disabled">TPL_FIELD_MOBILELAYOUT_02</option>
+				</field>
+				<field name="xml_s5_mobile_device_menu_subs" type="list" default="first" label="TPL_FIELD_MOBILEMENUSUBS_LABEL" description="TPL_FIELD_MOBILEMENUSUBS_DESC">
+					<option value="first">TPL_FIELD_MOBILEMENUSUBS_01</option>
+					<option value="all">TPL_FIELD_MOBILEMENUSUBS_02</option>
+				</field>
+				<field name="xml_s5_mobile_device_menu_title" type="text" default="Select Menu" label="TPL_FIELD_SELECTMENU_LABEL" description="TPL_FIELD_SELECTMENU_DESC" />
+				<field name="xml_s5_mobile_device_login" type="radio" default="enabled" label="TPL_FIELD_SHOWLOGIN_LABEL" description="TPL_FIELD_SHOWLOGIN_DESC">
+					<option value="enabled">TPL_FIELD_SHOWLOGIN_01</option>
+					<option value="disabled">TPL_FIELD_SHOWLOGIN_02</option>
+				</field>
+				<field name="xml_s5_mobile_device_register" type="radio" default="enabled" label="TPL_FIELD_MOBILEREGISTER_LABEL" description="TPL_FIELD_MOBILEREGISTER_DESC">
+					<option value="enabled">TPL_FIELD_MOBILEREGISTER_01</option>
+					<option value="disabled">TPL_FIELD_MOBILEREGISTER_02</option>
+				</field>
+				<field name="xml_s5_mobile_device_pc_text" type="text" default="Show me the PC Version" label="TPL_FIELD_MOBILESHOWPC_LABEL" description="TPL_FIELD_MOBILESHOWPC_DESC" />
+		</fieldset>	
+		<fieldset name="s56" label="TPL_FIELD_GO_LABEL">			
+				<field name="xml_s5_thirdparty" type="radio" default="enabled" label="TPL_FIELD_THIRDPARTY_LABEL" description="TPL_FIELD_THIRDPARTY_DESC">
+					<option value="enabled">TPL_FIELD_THIRDPARTY_01</option>
+					<option value="disabled">TPL_FIELD_THIRDPARTY_02</option>
+				</field>
+				<field name="xml_s5_seourl" type="text" label="TPL_FIELD_SEOURL_LABEL" description="TPL_FIELD_SEOURL_DESC" />
+				<field name="xml_s5_additional_scripts1" type="text" default="" label="TPL_FIELD_ADDITIONAL_SCRIPTS1_LABEL" description="TPL_FIELD_ADDITIONAL_SCRIPTS1_DESC" />
+				<field name="xml_s5_additional_scripts2" type="text" default="" label="TPL_FIELD_ADDITIONAL_SCRIPTS2_LABEL" description="TPL_FIELD_ADDITIONAL_SCRIPTS2_DESC" />
+				<field name="spacer_notice" type="spacer" label="TPL_FIELD_SHOWFRONTPAGETITLE_DESC" />
+				<field name="xml_s5_hide_component_items" type="menuitems" default="-1" size="10" description="TPL_FIELD_SHOWFRONTPAGE_DESC" label="TPL_FIELD_SHOWFRONTPAGE_LABEL" />	
+				<field name="xml_s5_ie6plugin" type="radio" default="yes" label="TPL_FIELD_IE6WARNING_LABEL" description="TPL_FIELD_IE6WARNING_DESC">
+					<option value="yes">TPL_FIELD_IE6WARNING_01</option>
+					<option value="no">TPL_FIELD_IE6WARNING_02</option>
+				</field>
+				<field name="xml_s5_scrolltotop" type="radio" default="yes" label="TPL_FIELD_SCROLLA_LABEL" description="TPL_FIELD_SCROLLA_DESC">
+					<option value="yes">TPL_FIELD_SCROLLA_1</option>
+					<option value="no">TPL_FIELD_SCROLLA_2</option>
+				</field>
+				<field name="spacerrasdf_notice" type="spacer" label="TPL_FIELD_LOGOUTLOGINREGISTER_DESC"  />
+				<field name="xml_s5_login" type="text" label="TPL_FIELD_LOGINTEXT_LABEL" description="TPL_FIELD_LOGINTEXT_DESC" />
+				<field name="xml_s5_loginout" type="text" label="TPL_FIELD_LOGOUTTEXT_LABEL" description="TPL_FIELD_LOGOUTTEXT_DESC" />
+				<field name="xml_s5_register" type="text" label="TPL_FIELD_REGISTEREXT_LABEL" description="TPL_FIELD_REGISTERTEXT_DESC" />
+				
+		</fieldset>	
+		<fieldset name="s55" label="TPL_FIELD_MTT_LABEL">	
+				<field name="s55spacer_notice" label="&lt;span style=&quot;display:block;&quot;&gt;Be sure to view this template's demo and view the tutorials found under the Tutorials menu for help on setting up these features on your website.&lt;/span&gt;" type="spacer" />
+				<field name="xml_s5_multibox" type="radio" default="yes" label="TPL_FIELD_ENABLEMULTIBOX_LABEL" description="TPL_FIELD_ENABLEMULTIBOX_DESC">
+					<option value="yes">TPL_FIELD_ENABLEMULTIBOX_01</option>
+					<option value="no">TPL_FIELD_ENABLEMULTIBOX_02</option>
+				</field>
+				<field name="xml_s5_multioverlay" type="radio" default="yes" label="TPL_FIELD_ENABLEMULTIBOXOVERLAY_LABEL" description="TPL_FIELD_ENABLEMULTIBOXOVERLAY_DESC">
+					<option value="yes">TPL_FIELD_ENABLEMULTIBOXOVERLAY_01</option>
+					<option value="no">TPL_FIELD_ENABLEMULTIBOXOVERLAY_02</option>
+				</field>
+				<field name="xml_s5_multicontrols" type="radio" default="yes" label="TPL_FIELD_ENABLEMULTIBOXCONTROLS_LABEL" description="TPL_FIELD_ENABLEMULTIBOXCONTROLS_DESC">
+					<option value="yes">TPL_FIELD_ENABLEMULTIBOXCONTROLS_01</option>
+					<option value="no">TPL_FIELD_ENABLEMULTIBOXCONTROLS_02</option>
+				</field>	
+				<field name="xml_s5_tooltips" type="radio" default="no" label="TPL_FIELD_ENABLETOOLTIPS_LABEL" description="TPL_FIELD_ENABLETOOLTIPSS_DESC">
+					<option value="yes">TPL_FIELD_ENABLETOOLTIPS_01</option>
+					<option value="no">TPL_FIELD_ENABLETOOLTIPS_02</option>
+				</field>
+				<field name="xml_s5_lazyload" type="list" default="disabled" label="TPL_FIELD_ENABLELAZYLOAD_LABEL" description="TPL_FIELD_ENABLELAZYLOAD_DESC">
+					<option value="disabled">TPL_FIELD_ENABLELAZYLOAD_01</option>
+					<option value="all">TPL_FIELD_ENABLELAZYLOAD_02</option>
+					<option value="individuals">TPL_FIELD_ENABLELAZYLOAD_03</option>
+				</field>
+		</fieldset>			
+		
+				
+			
+		<fieldset name="s57" label="TPL_FIELD_FTS_LABEL">					
+			<field name="spacer_notice" label="TPL_FIELD_TABINSTRUCTIONS_LABEL" type="spacer" />
+			<field name="xml_s5_lr_tab_border" type="text" default="838383" size="6" label="TPL_FIELD_FIXEDTABBORDER_LABEL" description="TPL_FIELD_FIXEDTABBORDER_DESC" />
+			<field name="xml_s5_lr_tab_color" type="text" default="FFFFFF" size="6" label="TPL_FIELD_FIXEDTABBACKGROUND_LABEL" description="TPL_FIELD_FIXEDTABBACKGROUND_DESC" />
+			<field name="xml_s5_lr_tab_font" type="text" default="323232" size="6" label="TPL_FIELD_FIXEDTABFONTCOLOR_LABEL" description="TPL_FIELD_FIXEDTABFONTCOLOR_DESC" />
+			<field name="spacer_custom" type="spacer" label="TPL_FIELD_FIXEDTAB1LABEL_LABEL" />
+			<field name="xml_s5_lr_tab1_text" type="text" label="TPL_FIELD_FIXEDTAB1TEXT_LABEL" description="TPL_FIELD_FIXEDTAB1TEXT_DESC" />
+			<field name="xml_s5_lr_tab1_vp" type="text" default="30" label="TPL_FIELD_FIXEDTAB1VERTICAL_LABEL" description="TPL_FIELD_FIXEDTAB1VERTICAL_DESC" />
+			<field name="xml_s5_lr_tab1_height" type="text" default="100" label="TPL_FIELD_FIXEDTAB1HEIGHT_LABEL" description="TPL_FIELD_FIXEDTAB1HEIGHT_DESC" />
+			<field name="xml_s5_lr_tab1_class" type="text" label="TPL_FIELD_FIXEDTAB1CLASS_LABEL" description="TPL_FIELD_FIXEDTAB1CLASS_DESC" />
+			<field name="xml_s5_lr_tab1_click" type="text" label="TPL_FIELD_FIXEDTAB1CLICK_LABEL" description="TPL_FIELD_FIXEDTAB1CLICK_DESC" />
+			<field name="xml_s5_lr_tab1_left_right" type="list" default="right" label="TPL_FIELD_FIXEDTAB1POSITION_LABEL" description="TPL_FIELD_FIXEDTAB1POSITION_DESC">
+				<option value="left">TPL_FIELD_FIXEDTAB1POSITION_01</option>
+				<option value="right">TPL_FIELD_FIXEDTAB1POSITION_02</option>
+			</field>
+			<field name="1spacer_custom" type="spacer" label="TPL_FIELD_FIXEDTAB2LABEL_LABEL" />
+			<field name="xml_s5_lr_tab2_text" type="text" label="TPL_FIELD_FIXEDTAB2TEXT_LABEL" description="TPL_FIELD_FIXEDTAB2TEXT_DESC" />
+			<field name="xml_s5_lr_tab2_vp" type="text" default="30" label="TPL_FIELD_FIXEDTAB2VERTICAL_LABEL" description="TPL_FIELD_FIXEDTAB2VERTICAL_DESC" />
+			<field name="xml_s5_lr_tab2_height" type="text" default="100" label="TPL_FIELD_FIXEDTAB2HEIGHT_LABEL" description="TPL_FIELD_FIXEDTAB2HEIGHT_DESC" />
+			<field name="xml_s5_lr_tab2_class" type="text" label="TPL_FIELD_FIXEDTAB2CLASS_LABEL" description="TPL_FIELD_FIXEDTAB2CLASS_DESC" />
+			<field name="xml_s5_lr_tab2_click" type="text" label="TPL_FIELD_FIXEDTAB2CLICK_LABEL" description="TPL_FIELD_FIXEDTAB2CLICK_DESC" />
+			<field name="xml_s5_lr_tab2_left_right" type="list" default="right" label="TPL_FIELD_FIXEDTAB2POSITION_LABEL" description="TPL_FIELD_FIXEDTAB2POSITION_DESC">
+				<option value="left">TPL_FIELD_FIXEDTAB2POSITION_01</option>
+				<option value="right">TPL_FIELD_FIXEDTAB2POSITION_02</option>
+			</field>
+		</fieldset>
+		
+		
+		
+		
+		<fieldset name="s58" label="TPL_FIELD_DDS_LABEL">	
+			
+			<field name="xml_s5_drop_down_overlay" type="list" default="right" label="TPL_FIELD_DDS_OVERLAY_LABEL" description="TPL_FIELD_DDS_OVERLAY_DESC">
+				<option value="overlay">TPL_FIELD_DDS_OVERLAY_01</option>
+				<option value="push_down">TPL_FIELD_DDS_OVERLAY_02</option>
+			</field>
+			<field name="xml_s5_drop_down_width" type="list" default="right" label="TPL_FIELD_DDS_WIDTH_LABEL" description="TPL_FIELD_DDS_WIDTH_DESC">
+				<option value="full">TPL_FIELD_DDS_WIDTH_01</option>
+				<option value="body">TPL_FIELD_DDS_WIDTH_02</option>
+			</field>
+			<field name="xml_s5_drop_down_button_open_text" type="text" default="Open Panel" label="TPL_FIELD_DDS_BUTTOPEN" description="TPL_FIELD_DDS_BUTTOPEN_DESC" />
+			<field name="xml_s5_drop_down_button_close_text" type="text" default="Close Panel" label="TPL_FIELD_DDS_BUTTCLOSE" description="TPL_FIELD_DDS_BUTTCLOSE_DESC" />
+			<field name="xml_s5_drop_down_button_width" type="text" default="124" label="TPL_FIELD_DDS_BUTTWIDTH" description="TPL_FIELD_DDS_BUTTWIDTH_DESC" />
+			<field name="xml_s5_drop_down_button_height" type="text" default="26" label="TPL_FIELD_DDS_BUTTHEIGHT" description="TPL_FIELD_DDS_BUTTHEIGHT_DESC" />
+			<field name="xml_s5_drop_down_button_text_color" type="text" default="1E1E1E" size="6" label="TPL_FIELD_DDS_BUTTTXTCOLOR" description="TPL_FIELD_DDS_BUTTTXTCOLOR_DESC" />
+			<field name="xml_s5_drop_down_button_text_hover_color" type="text" default="666666" size="6" label="TPL_FIELD_DDS_BUTTHVRCOLOR" description="TPL_FIELD_DDS_BUTTHVRCOLOR_DESC" />
+			<field name="xml_s5_drop_down_button_text_size" type="text" default="9" label="TPL_FIELD_DDS_BUTTTXTSIZE" description="TPL_FIELD_DDS_BUTTTXTSIZE_DESC" />
+			<field name="xml_s5_drop_down_button_text_weight" type="list" default="bold" label="TPL_FIELD_DDS_BUTTTXTWGHT" description="TPL_FIELD_DDS_BUTTTXTWGHT_DESC">
+				<option value="bold">TPL_FIELD_DDS_BUTTTXTWGHTB</option>
+				<option value="normal">TPL_FIELD_DDS_BUTTTXTWGHTN</option>
+			</field>
+			<field name="xml_s5_drop_down_button_gradient_start" type="text" default="FFFFFF" size="6" label="TPL_FIELD_DDS_BUTTGRADST" description="TPL_FIELD_DDS_BUTTGRADST_DESC" />
+			<field name="xml_s5_drop_down_button_gradient_stop" type="text" default="E5E5E5" size="6" label="TPL_FIELD_DDS_BUTTGRADED" description="TPL_FIELD_DDS_BUTTGRADED_DESC" />
+			<field name="xml_s5_drop_down_button_border_size" type="text" default="1" label="TPL_FIELD_DDS_BUTTBORDERSZ" description="TPL_FIELD_DDS_BUTTBORDERSZ_DESC" />
+			<field name="xml_s5_drop_down_button_border_color" type="text" default="999999" size="6" label="TPL_FIELD_DDS_BUTTBORDERCOLOR" description="TPL_FIELD_DDS_BUTTBORDERCOLOR_DESC" />
+			<field name="xml_s5_drop_down_button_radius_size" type="text" default="16" label="TPL_FIELD_DDS_BUTTBORDERRR" description="TPL_FIELD_DDS_BUTTBORDERRR_DESC" />
+			<field name="xml_s5_drop_down_button_shadow" type="radio" default="show" label="TPL_FIELD_DDS_BUTTSHADOW" description="TPL_FIELD_DDS_BUTTSHADOW_DESC">
+				<option value="show">TPL_SHOW_DESC</option>
+				<option value="hide">TPL_HIDE_DESC</option>
+			</field>
+			<field name="xml_s5_drop_down_button_shadow_size" type="text" default="2" label="TPL_FIELD_DDS_BUTTSHADOWSZE" description="TPL_FIELD_DDS_BUTTSHADOWSZE_DESC" />
+			<field name="xml_s5_drop_down_button_shadow_opacity" type="text" default="0.2" label="TPL_FIELD_DDS_BUTTSHADOWOPACITY" description="TPL_FIELD_DDS_BUTTSHADOWOPACITY_DESC" />
+			<field name="xml_s5_drop_down_button_position" type="list" default="center" label="TPL_FIELD_DDS_BUTTPOSITION" description="TPL_FIELD_DDS_BUTTPOSITION_DESC">
+				<option value="left">TPL_FIELD_DDS_BUTTPOSITIONL</option>
+				<option value="center">TPL_FIELD_DDS_BUTTPOSITIONC</option>
+				<option value="right">TPL_FIELD_DDS_BUTTPOSITIONR</option>
+			</field>	
+			
+			<field name="xml_s5_drop_down_background" type="text" default="FFFFFF" size="6" label="TPL_FIELD_DDS_BUTTDROPDOWNBC" description="TPL_FIELD_DDS_BUTTDROPDOWNBC_DESC" />
+			<field name="xml_s5_drop_down_background_opacity" type="text" default="0.95" label="TPL_FIELD_DDS_BUTTDROPDOWNOC" description="TPL_FIELD_DDS_BUTTDROPDOWNOC_DESC" />
+			<field name="xml_s5_drop_down_border_size" type="text" default="2" label="TPL_FIELD_DDS_BUTTDROPDOWNBS" description="TPL_FIELD_DDS_BUTTDROPDOWNBS_DESC" />
+			<field name="xml_s5_drop_down_border_color" type="text" default="999999" size="6" label="TPL_FIELD_DDS_BUTTDROPDOWNBORDC" description="TPL_FIELD_DDS_BUTTDROPDOWNBORDC_DESC" />
+			<field name="xml_s5_drop_down_shadow" type="radio" default="show" label="TPL_FIELD_DDS_BUTTDROPDOWNBORDSHAD" description="TPL_FIELD_DDS_BUTTDROPDOWNBORDSHAD_DESC">
+				<option value="show">TPL_SHOW_DESC</option>
+				<option value="hide">TPL_HIDE_DESC</option>
+			</field>
+			<field name="xml_s5_drop_down_shadow_size" type="text" default="2" label="TPL_FIELD_DDS_BUTTDROPDOWNSSIZE" description="TPL_FIELD_DDS_BUTTDROPDOWNSSIZE_DESC" />
+			<field name="xml_s5_drop_down_shadow_opacity" type="text" default="0.2" label="TPL_FIELD_DDS_BUTTDROPDOWNOPACITY" description="TPL_FIELD_DDS_BUTTDROPDOWNOPACITY_DESC" />
+			</fieldset>
+		
+		</fields>
+		
+	</config>	
+</extension>
